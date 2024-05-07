@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+.header h1 {
+    margin: 20px auto; 
+    text-align: center;  
+}
+
+#heading {
+    font-size: 35px;
+    margin-bottom: 50px;
+    align-self: flex-start;
+    
+}
+.container {
+    border: 2px solid pink;
+    margin: 10px auto;
+    padding: 10px;
+    /*width: 800px;
+    height: 450px;*/    
+}
+.color {
+    display: inline-block;
+    width: 27%;
+    text-align: center;
+}
+#pink {
+    border: 2px solid #e75480;
+    background-color:#e75480;
+    margin: 50px 5px;
+    padding: 10px;
+    height: 50px;
+}
+#purple {
+    border: 2px solid #800080;
+    background-color:#800080;
+    margin: 50px 5px;
+    padding: 10px;
+    height: 50px;
+}
+#aqua {
+    border: 2px solid #05c3dd;
+    background-color:#05c3dd;
+    margin: 50px 5px;
+    padding: 10px;
+    height: 50px;
+}
+#yellow {
+    border: 2px solid #e5de00;
+    background-color:#e5de00;
+    margin: 30px 5px;
+    padding: 10px;
+    height: 50px;  
+}
+
+
+/*.font {
+    border: 2px solid gray;
+    margin: 10px auto;
+    padding: 10px;
+    
+    
+    line-height: 50px;
+    
+}*/
+.font-label {
+    text-decoration: underline;
+    font-size: 20px;
+    font-weight: light;
+
+}
+
+.fonts {
+     width: 45%;
+     display: inline-block;
+     line-height: 40px;
+}
+
+.source-code-pro {
+    font-family: 'Source Code Pro';  
+}
+.light {
+    font-weight: 400;
+    font-size: 15px;
+
+}
+.dark{
+    font-weight: 700;
+}
+.italic {
+    font-style: italic;
+    font-weight: 400; 
+}
+p {
+    display: block;
+    
+}
+.ik {
+    font-family: 'Nunito Sans';
+}
+.ak {
+    font-family: 'Poppins';
+    
+}
+/*.text {
+    border: 2px solid blue;
+    margin: 10px auto;
+    padding: 10px;
+    width: 800px;
+    height: 450px;
+    list-style:inside;
+    line-height: 35px;
+    }
+    */
+.text {
+    line-height: 35px;
+}    
+h1, h2, .P {
+    line-height: 35px;
+}
+h1 {
+    font-weight: 700;
+    font-size: 26px;
+    font-family: 'Nunito Sans';
+    
+}
+h2 {
+    font-weight: 500;
+    font-size: 18px;
+    font-family: 'Poppins';
+}
+p {
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Poppins';
+}
+ul {
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Poppins';
+}
+.nav-links {
+    float: right;
+}
+a:hover {
+    color: purple;
+}
+@media screen and (min-width: 350px;) {
+    .color {
+        display: inline-block;
+        width: 100%;
+    }
+}
+
